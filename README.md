@@ -1,3 +1,4 @@
 # COSC345-devenv-App
 
-(https://github.com/andrewtrotman/COSC345-devenv-App/actions/workflows/msbuild/badge.svg)
+![example workflow]
+(https://github.com/andrewtrotman/COSC345-devenv-App/actions/workflows/msbuild.yml/badge.svg)
