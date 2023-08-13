@@ -58,7 +58,7 @@ jobs:
       shell: cmd
       run: |
         dir
-        OpenCppCoverage.exe --export_type cobertura:345_2023.xml -- "./COSC345 devenv App.exe"
+        OpenCppCoverage.exe --export_type cobertura:345_2023.xml -- "x64\Debug\COSC345 devenv App.exe" 
       
     - name: Upload Report to Codecov
       uses: codecov/codecov-action@v2
