@@ -1,6 +1,18 @@
 #include <stdio.h>
 
+
+void call_me(void)
+{
+puts("call_me");
+}
+
+void dead_code(void)
+{
+puts("dead_code");
+}
+
 int main(void)
 {
-puts("Hello World");
+call_me();
+return 0;
 }
