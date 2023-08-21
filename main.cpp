@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+#include "main.h"
 
 void call_me(void)
 {
